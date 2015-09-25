@@ -5,5 +5,3 @@ This is the pinteresting sample application for
 
 by [Bill Zito](http://bzito.com)
 
-who hopes it works
-
