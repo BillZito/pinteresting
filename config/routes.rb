@@ -4,6 +4,9 @@ Rails.application.routes.draw do
 
   #create about path
   get "about" => "pages#about"
+  
+  # creat blog path
+  get "blog" => "pages#blog"
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
