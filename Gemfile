@@ -3,6 +3,8 @@ ruby '2.2.3'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.4'
+#install postgres and hope for the best...
+gem 'pg'
 
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
@@ -35,7 +37,7 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
-  gem 'pg'
+  gem 'byebug'
 end
 
 group :development do
@@ -47,6 +49,5 @@ group :development do
 end
 
 group :production do
-	gem 'pg'
 	gem 'rails_12factor'
 end
