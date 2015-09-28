@@ -76,4 +76,8 @@ Rails.application.configure do
 
   # Do not dump schema after migrations.
   config.active_record.dump_schema_after_migration = false
+
+  #required for devise heroku, so it can properly send emails
+  #note to set this to your actual host name
+  config.action_mailer.default_url_options = { host: 'http://boiling-springs-6138.herokuapp.com/' }
 end
