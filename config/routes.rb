@@ -1,6 +1,9 @@
 Rails.application.routes.draw do
   
+  #sets up routes that are needed with devise
   devise_for :users
+
+  #sets root to the home page
   root "pages#home"
 
   #create about path
